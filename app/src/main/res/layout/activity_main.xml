@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+    <TextView
+        android:id="@+id/edtscreen"
+        android:layout_width="match_parent"
+        android:layout_height="156dp"
+        android:background="@color/black"
+        android:text=" "
+        android:hint="0"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="50sp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="267dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="107dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/Noone"
+                android:layout_width="102dp"
+                android:layout_height="match_parent"
+                android:background="@color/black"
+                android:gravity="center"
+                android:text="1"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                tools:layout_editor_absoluteX="3dp"
+                tools:layout_editor_absoluteY="173dp" />
+
+
+            <Button
+                android:id="@+id/Notwo"
+                android:layout_width="102dp"
+                android:layout_height="match_parent"
+                android:background="@color/black"
+                android:gravity="center"
+                android:text="2"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                tools:layout_editor_absoluteX="3dp"
+                tools:layout_editor_absoluteY="173dp" />
+
+            <Button
+                android:id="@+id/Nothree"
+                android:layout_width="102dp"
+                android:layout_height="match_parent"
+                android:background="@color/black"
+                android:gravity="center"
+                android:text="3"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                tools:layout_editor_absoluteX="3dp"
+                tools:layout_editor_absoluteY="173dp" />
+
+            <Button
+                android:id="@+id/Nofour"
+                android:layout_width="102dp"
+                android:layout_height="match_parent"
+                android:background="@color/black"
+                android:gravity="center"
+                android:text="4"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                tools:layout_editor_absoluteX="3dp"
+                tools:layout_editor_absoluteY="173dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="167dp"
+            android:orientation="horizontal"
+            android:paddingTop="1dp">
+
+            <Button
+                android:id="@+id/No5"
+                android:layout_width="102dp"
+                android:layout_height="match_parent"
+                android:background="@color/black"
+                android:gravity="center"
+                android:text="5"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                tools:layout_editor_absoluteX="3dp"
+                tools:layout_editor_absoluteY="173dp" />
+
+
+            <Button
+                android:id="@+id/No6"
+                android:layout_width="102dp"
+                android:layout_height="match_parent"
+                android:background="@color/black"
+                android:gravity="center"
+                android:text="6"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                tools:layout_editor_absoluteX="3dp"
+                tools:layout_editor_absoluteY="173dp" />
+
+            <Button
+                android:id="@+id/No7"
+                android:layout_width="102dp"
+                android:layout_height="match_parent"
+                android:background="@color/black"
+                android:gravity="center"
+                android:text="7"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                tools:layout_editor_absoluteX="3dp"
+                tools:layout_editor_absoluteY="173dp" />
+
+            <Button
+                android:id="@+id/No8"
+                android:layout_width="102dp"
+                android:layout_height="match_parent"
+                android:background="@color/black"
+                android:gravity="center"
+                android:text="8"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                tools:layout_editor_absoluteX="3dp"
+                tools:layout_editor_absoluteY="173dp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="133dp"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/No9"
+            android:layout_width="102dp"
+            android:layout_height="match_parent"
+            android:background="@color/black"
+            android:gravity="center"
+            android:text="9"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="173dp" />
+
+
+        <Button
+            android:id="@+id/zero"
+            android:layout_width="102dp"
+            android:layout_height="match_parent"
+            android:background="@color/black"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="173dp" />
+
+        <Button
+            android:id="@+id/addOp"
+            android:layout_width="102dp"
+            android:layout_height="match_parent"
+            android:background="@color/black"
+            android:gravity="center"
+            android:text="+"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="173dp" />
+
+        <Button
+            android:id="@+id/minus"
+            android:layout_width="102dp"
+            android:layout_height="match_parent"
+            android:background="@color/black"
+            android:gravity="center"
+            android:text="-"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="173dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/multiplyop"
+            android:layout_width="102dp"
+            android:layout_height="match_parent"
+            android:background="@color/black"
+            android:gravity="center"
+            android:text="*"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="173dp" />
+
+
+        <Button
+            android:id="@+id/divop"
+            android:layout_width="102dp"
+            android:layout_height="match_parent"
+            android:background="@color/black"
+            android:gravity="center"
+            android:text="/"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="173dp" />
+
+
+
+        <Button
+            android:id="@+id/percentop"
+            android:layout_width="102dp"
+            android:layout_height="match_parent"
+            android:background="@color/black"
+            android:gravity="center"
+            android:text="%"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="173dp" />
+        <Button
+            android:id="@+id/clearop"
+            android:layout_width="102dp"
+            android:layout_height="match_parent"
+            android:background="@color/black"
+            android:gravity="center"
+            android:text="clear"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="173dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/dotop"
+            android:layout_width="102dp"
+            android:layout_height="match_parent"
+            android:background="@color/black"
+            android:gravity="center"
+            android:text="."
+            android:textColor="@color/white"
+            android:textSize="50sp"
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="173dp" />
+
+
+        <Button
+            android:id="@+id/spacop"
+            android:layout_width="102dp"
+            android:layout_height="match_parent"
+            android:background="@color/black"
+            android:gravity="center"
+            android:text="_"
+            android:textColor="@color/white"
+            android:textSize="50sp"
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="173dp" />
+
+        <Button
+            android:id="@+id/equalop"
+            android:layout_width="208dp"
+            android:layout_height="match_parent"
+            android:background="@color/black"
+            android:gravity="center"
+            android:text="="
+            android:textColor="@color/white"
+            android:textSize="50sp"
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="173dp" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
